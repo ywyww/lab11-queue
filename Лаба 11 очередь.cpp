@@ -49,37 +49,6 @@ int main() {
 		system("cls");
 		menu(c);
 	}
-	/*
-	int b;
-	cout << "Введите n" << endl;
-	cin >> b;			// Глобальная переменная увеличивается с push, поэтому переменная b для функции create
-	cout << "Введите идентификаторы " << b << " пользователей" << endl; cin.ignore();
-	create(b);
-	cout << "1 - выходит из очереди, n - входит" << endl;
-	output();
-	outputRight();
-
-	FILE* file = NULL;
-	int pos, K;
-	cout << "pos, K? " << "pos относительно выхода (1)" << endl;
-	cin >> pos >> K;
-	
-	cin.get();
-	add(pos, K, file);
-	
-	output();
-	outputRight();
-
-	
-	write(file);
-	destroy();
-	if ((file = fopen("myFile", "rb+")) == NULL) exit(2);
-	restore(file);
-	fclose(file);
-	output();
-	outputRight();
-	
-	*/
 	return 0;
 }
 void create(const int num) {
